@@ -1,0 +1,22 @@
+{
+    "name": "Raajje Fonts - Maldivian Fonts Repository",
+    "short_name": "RaajjeFonts",
+    "start_url": "/?utm_source=pwa",
+    "theme_color": "#ffc252",
+    "scope": "/",
+    "display": "standalone",
+    "orientation":"portrait",
+    "description": "Maldivian fonts repository providing easy access to a large number of Maldivian fonts developed by aspiring individuals and groups at a single place",
+    "icons": [
+        {
+            "src": "imgs/maskable/maskable_icon_x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "imgs/maskable/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

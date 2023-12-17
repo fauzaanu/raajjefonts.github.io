@@ -1,81 +1,95 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title> Raajje Fonts - Maldivian Fonts Repository</title>
-			<link data-default-icon="imgs/favicon.png" rel="icon" sizes="192x192" href="imgs/favicon.png" />
-			<meta name="description" content="Maldivian fonts repository allowing easy access to a large number of Maldivian fonts developed by aspiring individuals and groups at a single place. | Dhivehi Fonts | Raajje Fonts | Maldivian Fonts | Thaana Fonts |">
-			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
-			<meta charset="utf-8">
-		</head>
-		
-		<link rel="stylesheet" href="styles/home.css"/>
-		
-		<body>
-			<img id="background-image" src="imgs/Background.png"/>
-			<header id="hdr" >
-				<nav id="navBar">
-					<a href="/">
-						<div id="logoDiv">
-							<img class="logo" id="logoDesktop" src="imgs/RaajjefontsLogoName.png" alt="Raajje Fonts Logo"/>
-							<img class="logo" id="logoMobile" src="imgs/favicon.png" alt="Raajje Fonts Logo"/>
-						</div>
-					</a>			
-				</nav>
-				<a href="credits.txt">
-					<p id="credits" >Credits</p>
-				</a>
-				<a href="articles/articles.html">
-					<p id="articles" >Articles</p>
-				</a>
-			</header>
-			<main>
-				<center>
-					<h1 class="intro-text">The Only Maldivian Fonts Repository You'll Need</h1>
-					<p class="intro-text">Type the text you want to use to test fonts below</p>
-					<form id="test-text-box">
-						<input type="text" id="test" value="&#x202e; 321 | &#x202d; ejqwAr | &#x202e; ރާއްޖެ" onchange="updateTestText()"/> 
-					</form>
-					<p id="intro" class="intro-text">The fonts listed in this repository belongs to the aspiring individuals and groups who dedicated their time and effort into 
-					developing the fonts. This site simply puts together all such fonts into a single place for easy access.</p>
-					<p id="alert_intro" class="intro-text"></p>
-					<p id="noti"><b>Tip:</b> press <keys>Ctrl</keys> + <keys>F</keys> to search fonts</p>
-					
-					<div id="listings-box">
-					<!--
-						<div class="listing">
-							<p class="listing-name">Font Name</p>
-							<p class="listing-display">ރާއްޖެ ފޮންޓްސް</p>
-							<p class="listing-file-name"><b>file:</b> fileName </p>
-							<div class="horizontal">
-								<p class="listing-size"><b>Size:</b> 1.1mb</p>
-								<a href="download/link">
-									<div class="listing-download">
-									  <p>Download</p>
-									</div>
-								</a>
-							</div>
-						</div>
-					!-->
-						
-						
-					</div>
-			
-				</center>
-				
-			</main>
-			<footer>
-            		<div class="footer">
-			    <hr/>
-			    </br>
-			    <center>
-					<p>send fonts, request fonts, request features or report bugs to <b>raajjefonts@gmail.com</b></p>
-			    	<p>developed and maintained by  <a class="redirectText" href="https://saaiqsas.github.io">saaiqSAS</a> |  <a class="redirectText" href="https://github.com/raajjefonts">Project GitHub</a></p>
-					<p>© 2023 raajjefonts</p>
-			    </center>
-			    </br>
-            		</div>
-		</footer>
-		</body>
-		<script type="text/javascript" src="scripts/home.js"></script>
+<html>
+<head>
+    <title> Raajje Fonts - Maldivian Fonts Repository</title>
+    <link data-default-icon="imgs/favicon.png" rel="icon" sizes="192x192" href="imgs/favicon.png"/>
+    <link rel="stylesheet" href="styles/home.css"/>
+    <meta name="description"
+          content="Maldivian fonts repository allowing easy access to a large number of Maldivian fonts developed by aspiring individuals and groups at a single place. | Dhivehi Fonts | Raajje Fonts | Maldivian Fonts | Thaana Fonts |">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="scripts/sw-register.js"></script>
+    <link rel="manifest" href="/app.webmanifest">
+    <meta name="theme-color" content="#ffc252">
+    <link rel="apple-touch-icon" href="imgs/favicon.png">
+</head>
 
-	</html>
+
+<body oncontextmenu="return false">
+<img id="background-image" src="imgs/Background.png"/>
+<header id="hdr">
+    <nav id="navBar">
+        <a href="/">
+            <div id="logoDiv">
+                <img class="logo" id="logoDesktop" src="imgs/RaajjefontsLogoName.png" alt="Raajje Fonts Logo"/>
+                <img class="logo" id="logoMobile" src="imgs/favicon.png" alt="Raajje Fonts Logo"/>
+            </div>
+        </a>
+    </nav>
+    <a href="credits.txt">
+        <p id="credits">Credits</p>
+    </a>
+    <a href="articles/articles.html">
+        <p id="articles">Articles</p>
+    </a>
+</header>
+<main>
+    <center>
+        <h1 class="intro-text">The Only Maldivian Fonts Repository You'll Need</h1>
+        <p class="intro-text">Type the text you want to use to test fonts below</p>
+        <form id="test-text-box">
+            <input type="text" id="test" value="&#x202e; 321 | &#x202d; ejqwAr | &#x202e; ރާއްޖެ"
+                   onchange="updateTestText()"/>
+        </form>
+        <p id="intro" class="intro-text">The fonts listed in this repository belongs to the aspiring individuals and
+            groups who dedicated their time and effort into
+            developing the fonts. This site simply puts together all such fonts into a single place for easy access.</p>
+        <p id="alert_intro" class="intro-text"></p>
+        <p id="noti"><b>Tip:</b> press
+            <keys>Ctrl</keys>
+            +
+            <keys>F</keys>
+            to search fonts
+        </p>
+
+        <div id="listings-box">
+            <!--
+                <div class="listing">
+                    <p class="listing-name">Font Name</p>
+                    <p class="listing-display">ރާއްޖެ ފޮންޓްސް</p>
+                    <p class="listing-file-name"><b>file:</b> fileName </p>
+                    <div class="horizontal">
+                        <p class="listing-size"><b>Size:</b> 1.1mb</p>
+                        <a href="download/link">
+                            <div class="listing-download">
+                              <p>Download</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            !-->
+
+
+        </div>
+
+    </center>
+
+</main>
+<footer>
+    <div class="footer">
+        <hr/>
+        </br>
+        <center>
+            <p>send fonts, request fonts, request features or report bugs to <b>raajjefonts@gmail.com</b></p>
+            <p>developed and maintained by <a class="redirectText" href="https://saaiqsas.github.io">saaiqSAS</a> | <a
+                    class="redirectText" href="https://github.com/raajjefonts">Project GitHub</a></p>
+            <p>© 2023 raajjefonts</p>
+        </center>
+        </br>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="scripts/home.js"></script>
+
+</html>
